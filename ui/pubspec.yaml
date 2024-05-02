@@ -1,0 +1,84 @@
+name: shortest_route_map
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # l10n & date format
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.18.1
+
+  quick_log: ^5.3.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  flutter_map_animations: ^0.6.0
+  flutter_hooks: ^0.20.5
+  flutter_riverpod: ^2.5.1
+  hooks_riverpod: ^2.5.1
+  go_router: ^14.0.2
+  equatable: ^2.0.5
+  flutter_screenutil: ^5.9.0
+  animations: ^2.0.11
+  flutter_animate: ^4.5.0
+  material_symbols_icons: ^4.2719.3
+  google_fonts: ^6.2.1
+  flutter_map_cache: ^1.5.0
+  path_provider: ^2.1.3
+  dio_cache_interceptor_hive_store: ^3.2.2
+  gap: ^3.0.1
+  expandable: ^5.0.1
+  collection: ^1.18.0
+  cached_network_image: ^3.3.1
+  pinch_zoom: ^2.0.0
+  dio: ^5.4.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  flutter_gen_runner: ^5.4.0
+
+
+# Flutter gen configuration
+flutter_gen:
+  output: lib/assets/ # Optional (default: lib/gen/)
+  # Optional
+  integrations:
+    flutter_svg: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: DMSans
+      fonts:
+        # regular
+        - asset: assets/DMSans_font/DMSans-Regular.ttf
+
+        # light
+        - asset: assets/DMSans_font/DMSans-Light.ttf
+          weight: 300
+        
+        # medium
+        - asset: assets/DMSans_font/DMSans-Medium.ttf
+          weight: 500
+        
+        # semi bold
+        - asset: assets/DMSans_font/DMSans-SemiBold.ttf
+          weight: 600
+        
+        # bold
+        - asset: assets/DMSans_font/DMSans-Bold.ttf
+          weight: 700

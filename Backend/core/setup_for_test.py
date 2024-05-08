@@ -1,4 +1,4 @@
-from core.search import *
+from search import *
 
 # you can adjust this whatever you want
 graph_dict = {

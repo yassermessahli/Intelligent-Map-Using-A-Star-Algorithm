@@ -10,7 +10,6 @@ abstract class Data {
       ("Toudja", 21),
       ("Tifra", 26),
       ("Oued Ghir", 21),
-      ("Sidi Aich", 24),
     ],
     "Amizour": [
       ("Barbacha", 17),
@@ -51,7 +50,6 @@ abstract class Data {
       ("Seddouk", 13),
       ("Tifra", 14),
       ("Ilmaten", 13),
-      ("EL Kseur centre", 24),
     ]
   };
 

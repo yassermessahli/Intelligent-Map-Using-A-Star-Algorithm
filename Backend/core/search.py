@@ -48,9 +48,9 @@ class CustomizableQueue:
     
     def perform_sort(self, type):
         if type == None:
-            self.queue.sort(key=lambda x: self.get_g_cost(x))
+            self.queue.sort(key=self.get_g_cost)
         elif type == "f":
-            self.queue.sort(key=lambda x: self.get_f_cost(x))
+            self.queue.sort(key=self.get_f_cost)
         else:
             self.queue.sort(key=type)
     

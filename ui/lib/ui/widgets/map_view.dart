@@ -22,9 +22,9 @@ class MapView extends ConsumerWidget {
         mapController: MapController(),
         options: const MapOptions(
           initialCenter: LatLng(36.6447806, 4.8552356),
-          initialZoom: 13,
-          maxZoom: 18,
-          minZoom: 11,
+          initialZoom: 11.5,
+          maxZoom: 13,
+          minZoom: 11.5,
           // cameraConstraint: CameraConstraint.contain(
           //   bounds: LatLngBounds(
           //     const LatLng(36.580313, 5.040307),
